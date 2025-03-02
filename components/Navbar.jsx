@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
   return (
-    <nav className="bg-white p-4 shadow-lg">
+    <nav className="bg-white p-4 shadow">
       <div className="flex items-center justify-between max-w-screen-xl mx-auto">
         {/* Logo */}
         <div className="flex items-center">
@@ -27,7 +27,7 @@ const Navbar = () => {
 
         {/* Giriş Yap Butonu */}
         <div className="hidden lg:flex items-center">
-          <button className="bg-orange-500 text-white px-4 py-2 rounded-lg hover:bg-orange-600 transition duration-300 cursor-pointer">
+          <button className="bg-orange-500 text-white px-4 py-2 rounded-full hover:bg-orange-600 transition duration-300 cursor-pointer">
             Giriş Yap
           </button>
         </div>
